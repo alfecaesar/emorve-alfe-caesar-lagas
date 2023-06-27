@@ -1,0 +1,38 @@
+.announcement-bar-section .utility-bar .announcement-bar p.announcement-bar__message{
+    font-family: var(--font-body-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+sticky-header.header-wrapper{
+    border-bottom: 1px solid #D3D6DF;
+}
+
+.header:not(.drawer-menu).page-width{
+    max-width: 1350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header:not(.drawer-menu).page-width h1.header__heading a.link span{
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header:not(.drawer-menu).page-width ul.list-menu li a{
+    color: #18181B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: (--font-heading-family);
+}
+
+.header__active-menu-item,
+.header__menu-item:hover span{
+    text-decoration: none;
+}

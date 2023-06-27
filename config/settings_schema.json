@@ -126,6 +126,75 @@
         "default": 100
       },
       {
+        "type": "checkbox",
+        "id": "heading_enable_custom_font",
+        "label": "Enable Custom Font",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "heading_custom_font",
+        "label": "Custom Font",
+        "options": [
+          {
+            "value": "Plus Jakarta Sans",
+            "label": "Plus Jakarta Sans"
+          },
+          {
+            "value": "DM Sans",
+            "label": "DM Sans"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "heading_custom_font_style",
+        "label": "Custom Font Style",
+        "options": [
+          {
+            "value": "italic",
+            "label": "italic"
+          },
+          {
+            "value": "normal",
+            "label": "normal"
+          }
+        ],
+        "default": "normal"
+      },
+      {
+        "type": "select",
+        "id": "heading_custom_font_weight",
+        "label": "Custom Font Weight",
+        "options": [
+          {
+            "value": "300",
+            "label": "300"
+          },
+          {
+            "value": "400",
+            "label": "400"
+          },
+          {
+            "value": "500",
+            "label": "500"
+          },
+          {
+            "value": "600",
+            "label": "600"
+          },
+          {
+            "value": "700",
+            "label": "700"
+          },
+          {
+            "value": "800",
+            "label": "800"
+          }
+        ],
+        "default": "800"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
@@ -145,6 +214,67 @@
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
+      },
+      {
+        "type": "checkbox",
+        "id": "body_enable_custom_font",
+        "label": "Enable Custom Font",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "body_custom_font",
+        "label": "Custom Font",
+        "options": [
+          {
+            "value": "Plus Jakarta Sans",
+            "label": "Plus Jakarta Sans"
+          },
+          {
+            "value": "DM Sans",
+            "label": "DM Sans"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "body_custom_font_style",
+        "label": "Custom Font Style",
+        "options": [
+          {
+            "value": "italic",
+            "label": "italic"
+          },
+          {
+            "value": "normal",
+            "label": "normal"
+          }
+        ],
+        "default": "normal"
+      },
+      {
+        "type": "select",
+        "id": "body_custom_font_weight",
+        "label": "Custom Font Weight",
+        "options": [
+          {
+            "value": "400",
+            "label": "400"
+          },
+          {
+            "value": "500",
+            "label": "500"
+          },
+          {
+            "value": "600",
+            "label": "600"
+          },
+          {
+            "value": "700",
+            "label": "700"
+          }
+        ],
+        "default": "400"
       }
     ]
   },

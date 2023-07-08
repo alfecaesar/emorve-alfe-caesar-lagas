@@ -24,15 +24,82 @@ sticky-header.header-wrapper{
     text-transform: uppercase;
 }
 
-.header:not(.drawer-menu).page-width ul.list-menu li a{
+.header:not(.drawer-menu).page-width ul.list-menu > li a,
+.header:not(.drawer-menu).page-width ul.list-menu > li summary span{
     color: #18181B;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     font-family: (--font-heading-family);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header:not(.drawer-menu).page-width ul.list-menu > li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header:not(.drawer-menu).page-width ul.list-menu > li:first-child{
+    padding-left: 0px;
+}
+
+.header:not(.drawer-menu).page-width ul.list-menu > li summary{
+    padding-left: 0px;
+    padding-right: 18px;
 }
 
 .header__active-menu-item,
 .header__menu-item:hover span{
     text-decoration: none;
 }
+
+.r-col-btns ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+  }
+
+  .r-col-btns ul li{
+    text-align: right;
+    font-size: 16px;
+    font-family: (--font-heading-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .r-col-btns ul li a{
+    color: #18181B;
+    text-decoration: none;
+  }
+
+  .r-col-btns ul li:last-child a{
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    background: linear-gradient(138deg, #0289FF 0%, #0258FF 100%);
+    color: #fff;
+    width: 127px;
+    text-align: center;
+  }
+
+  .header__menu-item .icon-caret {
+    right: 0px;
+  }
+
+  .banner__box h2.banner__heading{
+    font-size: 72px;
+    font-family: (--font-heading-family);
+    font-style: normal;
+    font-weight: 800;
+    line-height: 82px;
+    letter-spacing: -1.44px;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
